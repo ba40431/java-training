@@ -1,10 +1,14 @@
-class Name1{
+class Test{
   public static void main(String[] args) {
-    System.out.println("hello");
-    
+    Test.hello("good");
+    Test.test2(2);
   }
-}
 
-class Name2{
+  static void hello(String msg){
+    System.out.println(msg);
+  }
 
+  static void test2(int x){
+    System.out.println(x);
+  }
 }

@@ -13,6 +13,11 @@ public class Point {
   // 物件的屬性、方法、建構式(non-static)
   public int x; 
   public int y;
+
+  public Point(int x){
+    this.x = x;
+    this.y = 10;
+  }
   
   public Point(int x, int y){
     this.x = x;
